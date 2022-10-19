@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+
+
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section start -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="/views/index.html" class="logo">e-commerce</a>
+
+        <nav class="navbar">
+            <a href="/views/index.html">home</a>
+            <a href="/views/index.html#product">product</a>
+            <a href="/views/category.html">category</a>
+            <a href="#about-box">about</a>
+            <a href="/views/contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/project/banner_1.png" style="width: 100%;" class="slider-img">
+                <div class="text">Caption text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/project/banner_1.png" style="width: 100%;" class="slider-img">
+                <div class="text">Caption text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/project/banner_1.png" style="width: 100%;" class="slider-img">
+                <div class="text">Caption text</div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    
+    <!-- service section -->
+    <section class="service">
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>7 days replacement</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24 x 7 support</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- product section -->
+    <section class="product" id="product">
+        <h1 class="heading">latest <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" onclick="window.location.href='prodBuy.html'">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <!-- <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <img src="/project/male_1.1.png" alt="product">
+                <div class="content">
+                    <h3>T-Shirt</h3>
+                    <div class="price">$150.56 <span>$170.29</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+                </div>
+            </div>
+
+            <div class="box" onclick="window.location.href='prodBuy.html'">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <img src="/project/male_1.1.png" alt="product">
+                <div class="content">
+                    <h3>T-Shirt</h3>
+                    <div class="price">$117.64 <span>$139.46</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">buy</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <img src="/project/Mens_suit_3.1.png" alt="product">
+                <div class="content">
+                    <h3>Suit</h3>
+                    <div class="price">$150.56 <span>$170.29</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">buy</a>
+                </div>
+            </div>
+
+
+           
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- footer section -->
+
+    <footer class="footer">
+
+        <div class="box-container">
+
+            <div class="about-box" id="about-box">
+                <h3>about</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quidem vitae voluptas cum iste doloribus, vel et sit ex in pariatur incidunt
+                     facilis earum quaerat est quo officiis repellat ullam blanditiis 
+                     necessitatibus quas! Ab, odio asperiores? Suscipit quidem esse sequi cupiditate!</p>
+
+                    
+            </div> 
+
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">product</a>
+                <a href="#">category</a>
+                <a href="#">FAQ</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Shop</h3>
+                <a href="#">men</a>
+                <a href="#">women</a>
+                <a href="#">kids</a>
+                <a href="#">fashion</a>
+                <a href="#">electronics</a>
+                <a href="#">furniture</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+
+
+
+                <ul class="twitter-social">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+
+                <ul class="facebook-social">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+
+                <ul class="insta-social">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+
+                <ul class="linkedin-social">
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+
+                <ul class="portfolio-social">
+                    <li><a href="#"><i class="fa-duotone fa-browser"></i></a></li>
+                </ul>
+                
+
+            </div>
+            
+
+            <div class="credit">created by <span>Rishika</span> | all rights reserved!</div>
+            
+        </div>
+
+    </footer>
+
+
+    <!-- custom js file link -->
+    <script src="app.js"></script>
+
+</body>
+</html>
